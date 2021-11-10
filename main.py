@@ -1,16 +1,15 @@
-# This is a sample Python script.
+import datetime
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print ("Bienvenido al reloj del mundo")
+print ("Estes son las operaciones que puedes realizar")
+print ("1 - Para ver la hora")
+print ("2 - Para ver la fecha y hora")
+print ("3 - para ver la hora en New York")
+print ("4 - Para ver la hora en San Francisco")
+print ("5 - para ver las instrucciones")
+print ("6 - Paaara salir")
 
+while True:
+    operacion = input(" : ")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    if operacion == 1
