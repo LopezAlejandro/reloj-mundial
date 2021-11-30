@@ -15,7 +15,7 @@ def ver_hora(zona_horaria):
     print("La hora exacta es : {} {}".format( hora_actual.strftime(formato),zona))
 
 def ver_fecha_hora():
-    formato="%B %d,%Y  %H:%M:%S"
+    formato="%A , %d de %B de %Y  %I:%M:%S %p"
     time_zone=datetime.timezone(datetime.timedelta(hours=-3))
     fecha_actual=datetime.datetime.now(time_zone)
     print("La fecha es : {}".format( fecha_actual.strftime(formato)))
